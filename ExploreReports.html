@@ -12,40 +12,24 @@
 
     <section class = "bg-light m-3 rounded shadow-lg">
         <div class="m-1"> 
-            <video class = "w-100" height = "300" controls>
-                <source src="video.mp4" type = "video/mp4">
-            </video>
+            <iframe class = "w-100" height="315" src="https://www.youtube.com/embed/3_6pbh9uBbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="row pt-1 px-3 pb-3">
-            <div class="col-4">
+            <div class="col-6">
                 <div class="row">
                     <div class="col-lg-6 my-2">
                         <a href="#" class = "text-decoration-none">
-                            <div class="btn-sm text-center py-3 w-100 btn-primary">Video</div>
+                            <div class="btn-sm text-center py-3 w-100 btn-primary" data-toggle="modal" data-target="#exampleModalLong">Place and Contact</div>
                         </a>
                     </div>
                     <div class="col-lg-6 my-2">
                         <a href="#" class = "text-decoration-none">
-                            <div class="btn-sm text-center py-3 w-100 btn-primary">Place</div>
+                            <div class="btn-sm text-center py-3 w-100 btn-primary"> Help ( 2 <i class="fas fa-user-alt"></i> in help )</div>
                         </a>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
-                <div class="row">
-                    <div class="col-lg-6 my-2">
-                        <a href="#" class = "text-decoration-none">
-                            <div class="btn-sm text-center py-sm-3 w-100 btn-primary"> Help ( 2 <i class="fas fa-user-alt"></i> in help )</div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 my-2">
-                        <a href="#" class = "text-decoration-none">
-                            <div class="btn-sm text-center py-3 w-100 btn-primary">Contact</div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
+            <div class="col-6">
                 <div class="row">
                     <div class="col-lg-6 my-2">
                         <a href="#" class = "text-decoration-none">
@@ -78,6 +62,33 @@
 
             </div>
         </div>
+
+        <!--popup-->
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row py-3">
+                        <div class="col-md-6"><i class="fas fa-map-marker-alt">  </i><span> Baki</span></div>
+                        <div class="col-md-6"><i class="fas fa-phone">  </i><span> 050-XXX-XX-XX</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 w-100">
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    <iframe class = "w-100" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=baki&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                    <a href="https://www.utilitysavingexpert.com">Utility Saving Expert</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
     
     
