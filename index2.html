@@ -8,25 +8,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>
+<body class="bg-dark container">
 	
 
 
-<section class="container-fluid">
+<section class=" bg-light mt-2">
 
-		<div class="row">
-			<div class="embed-responsive embed-responsive-4by3 mb-5">
-				<iframe class="embed-responsive-item " src="https://www.youtube.com/embed/wMuNjnNyaiA" allowfullscreen></iframe>
+		<div class="container-fluid mt-4 p-2 p-md-3">
+			<div class="mx-auto mt-3 text-center alert bg-info text-light">
+			<h4 class="text-center font-weight-bold ">Yardım edildikdən sonrakı vəziyyət</h4>
+			</div>
+			
+			<div class="w-100 text-center  p-3 bg-danger">
+			  <label for="example-datetime-local-input" class="col-12 col-form-label  font-weight-bold text-light">
+			  Date and Time</label>
+
+			  <div class="col-12 mb-3">
+			    <input class="form-control text-center " type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+			  </div>
 			</div>
 		</div>
 
-		<div class="row">
-			<img src="img/animal.png" class="w-100 img-fluid mb-5" alt="Responsive image">	
-		</div>
+				<div class="container-fluid mt-5 p-2 p-md-3">
+					<h4 class="text-center mb-3 bg-info alert text-light">Image</h4>
+					<img src="img/animal.png" class="w-100 img-fluid mb-4 card" alt="Responsive image">	
+				</div>
 
-		<div class="row">
-			<h3 class="ml-2 text-muted">Description</h3>
-			<textarea class="w-100" name="" id="" cols="50" rows="10" placeholder="Lorem Ipsum"></textarea>
+				<div class="container-fluid mt-4 p-2 p-md-3">	
+					<h4 class="text-center mb-3 bg-info alert text-light">Video</h4>
+					<div class="card embed-responsive embed-responsive-4by3 mb-5">	
+					<iframe class="embed-responsive-item " src="https://www.youtube.com/embed/wMuNjnNyaiA" allowfullscreen></iframe>
+					</div>
+				</div>
+
+
+		
+			<div class="form-group p-2 p-md-3">
+				<h4 class="text-center mb-3 bg-info alert text-light">Description</h4>
+				<textarea class="form-control mb-3 bg-white" disabled  name="" id="" cols="50" rows="10">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas molestias sapiente vero omnis. Facilis aut, minima ut optio commodi voluptas cupiditate, autem sit dolor eius, error sequi quisquam architecto nihil.
+				</textarea>
+			</div>
 		</div>
 </section>
 
